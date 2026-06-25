@@ -38,7 +38,7 @@ graph TD
 
 Watch the automated pipeline successfully test, build, scan, and deploy:
 
-![Demo Video](./assets/demo.webp)
+![Demo Video](./assets/actions_demo.webp)
 
 ---
 
