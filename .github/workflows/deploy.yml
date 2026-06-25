@@ -4,6 +4,10 @@ on:
   push:
     branches: [ main ]
 
+permissions:
+  contents: read
+  packages: write
+
 jobs:
   pipeline:
     uses: Shubhamsah27/Automated_Deployment/.github/workflows/deploy-reusable.yml@main
