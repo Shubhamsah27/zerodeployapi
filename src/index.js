@@ -8,7 +8,7 @@ const port = process.env.PORT || 3000;
 // In-memory state
 let requestsServed = 0;
 const startTime = Date.now();
-const version = "1.4.2";
+const version = "2.0.0";
 
 // Middleware to count requests
 app.use((req, res, next) => {
