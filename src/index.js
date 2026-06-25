@@ -57,8 +57,9 @@ const formatUptime = (seconds) => {
 
 // Endpoints
 app.get('/health', (req, res) => {
-  res.json({
-    status: "ok",
+  res.status(500).json({
+    status: "error",
+    message: "Intentional health check failure for rollback testing",
     version,
     uptime_seconds: getUptimeSeconds()
   });
